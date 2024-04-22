@@ -24,6 +24,8 @@ components:
           value: "true"
         - name: KUBEDOCK_ENABLED
           value: "true"
+        - name: DOCKER_HOST
+          value: "tcp://localhost:2475"
 
   - name: m2
     volume:
