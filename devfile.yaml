@@ -3,7 +3,7 @@ metadata:
   name: quarkus-super-heroes
 components:
 
-  - name: tools
+  - name: tools-new
     container:
       image: registry.redhat.io/devspaces/udi-rhel8:latest
       memoryLimit: 2Gi
